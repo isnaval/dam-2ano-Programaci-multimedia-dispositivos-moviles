@@ -1,5 +1,3 @@
-class ClaseVacia
-
 class Persona(var nombre: String, var edad: Int) {
 }
 
@@ -57,7 +55,7 @@ fun main() {
     val persona2 = Persona("Ana", 26)
     println("Nombre: ${persona2.nombre}. Edad: ${persona2.edad}")
     println()
-    
+
     println("---Ejemplo 2: Clase perro ---\n")
     val myPerro = Perro("Max", "Labrador", 3)
     val otroPerro = Perro("Luna", "Pastor Alemán", 2)
