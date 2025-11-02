@@ -90,4 +90,9 @@ fun main() {
     usuario1.mostrarInfo()
     usuario2.mostrarInfo()
 
+    println("--- Ejemplo 4: Empleado ---\n")
+    val empleado01 = Empleado("Pedro", 3000.0, "IT")
+    empleado01.mostrarInfo()
+
+
 }
